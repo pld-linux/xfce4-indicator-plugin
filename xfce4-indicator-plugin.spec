@@ -1,25 +1,25 @@
 Summary:	A panel plugin that uses indicator-applet to show new messages
 Name:		xfce4-indicator-plugin
-Version:	2.3.2
+Version:	2.3.3
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-indicator-plugin/2.3/%{name}-%{version}.tar.bz2
-# Source0-md5:	9fdc7c6ab8a4f1e909eedd3596996568
+# Source0-md5:	05bd27312e7869fa91482a4caf01ad14
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-indicator-plugin
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	intltool
 BuildRequires:	libtool
-BuildRequires:	libxfce4ui-devel >= 4.11.0
-BuildRequires:	libxfce4util-devel >= 4.11.0
-BuildRequires:	xfce4-dev-tools >= 4.11.0
-BuildRequires:	xfce4-panel-devel >= 4.11.1-2
+BuildRequires:	libxfce4ui-devel >= 4.12.0
+BuildRequires:	libxfce4util-devel >= 4.12.0
+BuildRequires:	xfce4-dev-tools >= 4.12.0
+BuildRequires:	xfce4-panel-devel >= 4.12.0
 BuildRequires:	xfconf-devel
 BuildRequires:	gtk+3-devel >= 3.6.0
 BuildRequires:	libindicator-devel >= 12.10.1
 BuildRequires:	libindicator-gtk3-devel >= 12.10.1
-Requires:	xfce4-panel >= 4.11.0
+Requires:	xfce4-panel >= 4.12.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
