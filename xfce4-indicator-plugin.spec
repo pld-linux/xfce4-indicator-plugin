@@ -11,7 +11,6 @@ BuildRequires:	ayatana-ido-devel >= 0.4.0
 BuildRequires:	glib2-devel >= 1:2.50.0
 BuildRequires:	gtk+3-devel >= 3.22.0
 BuildRequires:	libayatana-indicator-gtk3-devel >= 0.5
-BuildRequires:	libtool
 BuildRequires:	libxfce4ui-devel >= 4.16.0
 BuildRequires:	libxfce4util-devel >= 4.16.0
 BuildRequires:	meson >= 0.54.0
